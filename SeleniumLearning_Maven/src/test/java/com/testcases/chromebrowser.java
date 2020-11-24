@@ -8,7 +8,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class chromebrowser {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// ChromeBrowser Setup in WebDriver to launch particular site
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://opensource-demo.orangehrmlive.com/");
