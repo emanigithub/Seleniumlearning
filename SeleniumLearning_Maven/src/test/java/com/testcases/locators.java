@@ -9,16 +9,20 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class locators {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-WebDriverManager.chromedriver().setup();
-		
+		// Different locators setup in WebDriver under Maven project.
+		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://opensource-demo.orangehrmlive.com/");
 		driver.findElement(By.id("txtUsername")).sendKeys("Admin");
 		driver.findElement(By.id("txtPassword")).sendKeys("admin123");
+		// Using the Xpath locator....
 		//driver.findElement(By.xpath("//*[@id=\"btnLogin\"]")).click();
-		//driver.findElement(By.linkText("forgotPasswordLink")).click();
-		driver.findElement(By.partialLinkText("Forgot your")).click();
+		
+		// Using the LinkText locator....
+		driver.findElement(By.linkText("Forgot your password?")).click();
+		
+		// Using the Partial LinkText locator....
+		//driver.findElement(By.partialLinkText("Forgot your")).click();
 	}
 
 }
