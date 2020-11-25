@@ -23,8 +23,6 @@ public class GoogleLinksCount {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		//driver.manage().timeouts().implicitlyWait(12, TimeUnit.SECONDS);
 		driver.close();
-
-		
 	
 	}
 
