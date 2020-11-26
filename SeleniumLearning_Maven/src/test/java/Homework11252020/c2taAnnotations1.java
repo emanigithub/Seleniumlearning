@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class c2taloginforTestNG {
+public class c2taAnnotations1 {
 	WebDriver driver;
 	
 	@BeforeTest
