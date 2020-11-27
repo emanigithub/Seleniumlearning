@@ -1,33 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="36024" started-at="2020-11-25T21:51:47 PST" finished-at="2020-11-25T21:52:23 PST">
+  <suite name="Default suite" duration-ms="23539" started-at="2020-11-27T14:55:10 PST" finished-at="2020-11-27T14:55:34 PST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="36024" started-at="2020-11-25T21:51:47 PST" finished-at="2020-11-25T21:52:23 PST">
-      <class name="Homework11252020.c2taloginforTestNG">
-        <test-method status="PASS" signature="MultiTcs()[pri:0, instance:Homework11252020.c2taloginforTestNG@5d76b067]" name="MultiTcs" is-config="true" duration-ms="10320" started-at="2020-11-25T21:51:47 PST" finished-at="2020-11-25T21:51:57 PST">
+    <test name="Default test" duration-ms="23539" started-at="2020-11-27T14:55:10 PST" finished-at="2020-11-27T14:55:34 PST">
+      <class name="com.TestNG.FlipkartSearchProduct">
+        <test-method status="PASS" signature="LaunchApp()[pri:0, instance:com.TestNG.FlipkartSearchProduct@23faf8f2]" name="LaunchApp" is-config="true" duration-ms="12230" started-at="2020-11-27T14:55:10 PST" finished-at="2020-11-27T14:55:22 PST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- MultiTcs -->
-        <test-method status="PASS" signature="registerapp()[pri:1, instance:Homework11252020.c2taloginforTestNG@5d76b067]" name="registerapp" duration-ms="1759" started-at="2020-11-25T21:51:57 PST" description="c2ta registration" finished-at="2020-11-25T21:51:59 PST">
+        </test-method> <!-- LaunchApp -->
+        <test-method status="PASS" signature="verifyTitle()[pri:1, instance:com.TestNG.FlipkartSearchProduct@23faf8f2]" name="verifyTitle" duration-ms="19" started-at="2020-11-27T14:55:22 PST" finished-at="2020-11-27T14:55:22 PST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registerapp -->
-        <test-method status="PASS" signature="loginapp()[pri:2, instance:Homework11252020.c2taloginforTestNG@5d76b067]" name="loginapp" duration-ms="5092" started-at="2020-11-25T21:51:59 PST" description="c2ta login" finished-at="2020-11-25T21:52:04 PST">
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="search()[pri:2, instance:com.TestNG.FlipkartSearchProduct@23faf8f2]" name="search" duration-ms="2224" started-at="2020-11-27T14:55:22 PST" finished-at="2020-11-27T14:55:25 PST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginapp -->
-        <test-method status="PASS" signature="topnavigation()[pri:3, instance:Homework11252020.c2taloginforTestNG@5d76b067]" name="topnavigation" duration-ms="18620" started-at="2020-11-25T21:52:04 PST" description="c2ta different tabs clicking" finished-at="2020-11-25T21:52:22 PST">
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="selectProduct()[pri:3, instance:com.TestNG.FlipkartSearchProduct@23faf8f2]" name="selectProduct" duration-ms="1882" started-at="2020-11-27T14:55:25 PST" finished-at="2020-11-27T14:55:27 PST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- topnavigation -->
-        <test-method status="PASS" signature="closeApp()[pri:0, instance:Homework11252020.c2taloginforTestNG@5d76b067]" name="closeApp" is-config="true" duration-ms="159" started-at="2020-11-25T21:52:22 PST" finished-at="2020-11-25T21:52:23 PST">
+        </test-method> <!-- selectProduct -->
+        <test-method status="PASS" signature="addProduct()[pri:4, instance:com.TestNG.FlipkartSearchProduct@23faf8f2]" name="addProduct" duration-ms="3196" started-at="2020-11-27T14:55:27 PST" finished-at="2020-11-27T14:55:30 PST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeApp -->
-      </class> <!-- Homework11252020.c2taloginforTestNG -->
+        </test-method> <!-- addProduct -->
+        <test-method status="PASS" signature="assertProduct()[pri:5, instance:com.TestNG.FlipkartSearchProduct@23faf8f2]" name="assertProduct" duration-ms="53" started-at="2020-11-27T14:55:30 PST" finished-at="2020-11-27T14:55:30 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertProduct -->
+        <test-method status="PASS" signature="assertPrice()[pri:6, instance:com.TestNG.FlipkartSearchProduct@23faf8f2]" name="assertPrice" duration-ms="3067" started-at="2020-11-27T14:55:30 PST" finished-at="2020-11-27T14:55:33 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertPrice -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.TestNG.FlipkartSearchProduct@23faf8f2]" name="tearDown" is-config="true" duration-ms="803" started-at="2020-11-27T14:55:33 PST" finished-at="2020-11-27T14:55:34 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.TestNG.FlipkartSearchProduct -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

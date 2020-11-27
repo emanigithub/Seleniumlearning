@@ -13,15 +13,15 @@ import org.testng.annotations.AfterSuite;
 public class SampleTestcase {
   @Test
   public void tc001() {
-	  System.out.println();
+	  System.out.println("Test Case 001");
   }
   @Test
   public void tc002() {
-	  System.out.println();
+	  System.out.println("Test Case 002");
   }
   @Test
   public void tc003() {
-	  System.out.println();
+	  System.out.println("Test Case 003");
   }
   @BeforeMethod
   public void beforeMethod() {

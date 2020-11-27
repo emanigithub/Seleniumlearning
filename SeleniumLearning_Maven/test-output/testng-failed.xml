@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Homework11252020.c2taloginforTestNG">
+      <class name="com.TestNG.FlipkartDemo">
         <methods>
-          <include name="registerapp"/>
-          <include name="closeApp"/>
-          <include name="LoginApp"/>
+          <include name="addProduct"/>
+          <include name="tearDown"/>
+          <include name="LaunchApp"/>
         </methods>
-      </class> <!-- Homework11252020.c2taloginforTestNG -->
+      </class> <!-- com.TestNG.FlipkartDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
