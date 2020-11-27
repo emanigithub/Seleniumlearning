@@ -1,3 +1,7 @@
+  /* * 1.Launch the website - https://www.flipkart.com/ 2.Search any product and
+	 * put implicit wait 3.Add the product to the cart 4.Assert the product name
+	 * 5.Assert the product price 6.Close the browser  */
+
 package com.TestNG;
 
 import java.util.Iterator;
@@ -79,7 +83,6 @@ public class FlipkartSearchProduct {
 	
 	@Test(priority=6)
 	public void assertPrice() throws InterruptedException {
-	//String price=driver.findElement(By.xpath("//*[@id=\"container\"]/div/div[3]/div[2]/div[1]/div[2]/div[2]/div/div/div/a/div[2]/div[2]/div[1]/div/div[1]")).getText();
 	String actualprice=driver.findElement(By.xpath("//*[@id=\"container\"]/div/div[3]/div[1]/div[2]/div[2]/div/div[3]/div[1]/div/div[1]")).getText();
 	Thread.sleep(3000);
 	System.out.println(actualprice);
