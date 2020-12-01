@@ -10,9 +10,6 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class ParameterizeWithDataProvider {
-
-//start
-	
     WebDriver driver;
 	
 	@Test(dataProvider="facebooklogin")
@@ -27,19 +24,19 @@ public class ParameterizeWithDataProvider {
 	driver.findElement(By.xpath("//*[@id='loginbutton']")).click();
 	
 	}
-	@AfterMethod
+	
+	/*@AfterMethod
 	public void tearDown() {
 	driver.quit();
-	}
+	}*/
 
 	@DataProvider(name="facebooklogin")
 	public Object[][] passData() {
 
 	Object[][] data=new Object[3][2];
-	 		//username
-			data[0][0]="frank";
-			//password
-			data[0][1]="demo1";
+	 		
+			data[0][0]="frank"; //Username
+			data[0][1]="demo1"; //Password
 
 			data[1][0]="joshi";
 			data[1][1]="demo123";
@@ -48,9 +45,12 @@ public class ParameterizeWithDataProvider {
 			data[2][1]="demo1234";
 
 			return data;
-	
-	//end
-	
+		
 	}
 
+	@AfterMethod
+	public void tearDown() {
+	driver.quit();
+	}
+	
 }

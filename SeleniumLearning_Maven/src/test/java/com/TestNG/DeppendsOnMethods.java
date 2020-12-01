@@ -14,7 +14,8 @@ public class DeppendsOnMethods {
 		  System.out.println("Test Case 002");
 		  Assert.assertEquals("abc", "xyz");
 	  }
-	  @Test(dependsOnMethods ="tc002", alwaysRun=true)
+	  
+	  @Test(dependsOnMethods ="tc002",alwaysRun=true)
 	  public void tc003() {
 		  System.out.println("Test Case 003");
 		 
