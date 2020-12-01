@@ -1,45 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22639" started-at="2020-11-27T15:20:46 PST" finished-at="2020-11-27T15:21:09 PST">
+  <suite name="Default suite" duration-ms="7818" started-at="2020-11-30T21:46:01 PST" finished-at="2020-11-30T21:46:09 PST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22639" started-at="2020-11-27T15:20:46 PST" finished-at="2020-11-27T15:21:09 PST">
-      <class name="com.TestNG.FlipkartSearchProduct">
-        <test-method status="PASS" signature="LaunchApp()[pri:0, instance:com.TestNG.FlipkartSearchProduct@23faf8f2]" name="LaunchApp" is-config="true" duration-ms="10173" started-at="2020-11-27T15:20:46 PST" finished-at="2020-11-27T15:20:56 PST">
+    <test name="Default test" duration-ms="7818" started-at="2020-11-30T21:46:01 PST" finished-at="2020-11-30T21:46:09 PST">
+      <class name="com.TestNG.FileUpload">
+        <test-method status="PASS" signature="upload()[pri:0, instance:com.TestNG.FileUpload@694e1548]" name="upload" duration-ms="7741" started-at="2020-11-30T21:46:01 PST" finished-at="2020-11-30T21:46:09 PST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LaunchApp -->
-        <test-method status="PASS" signature="verifyTitle()[pri:1, instance:com.TestNG.FlipkartSearchProduct@23faf8f2]" name="verifyTitle" duration-ms="15" started-at="2020-11-27T15:20:56 PST" finished-at="2020-11-27T15:20:56 PST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTitle -->
-        <test-method status="PASS" signature="search()[pri:2, instance:com.TestNG.FlipkartSearchProduct@23faf8f2]" name="search" duration-ms="2191" started-at="2020-11-27T15:20:56 PST" finished-at="2020-11-27T15:20:58 PST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- search -->
-        <test-method status="PASS" signature="selectProduct()[pri:3, instance:com.TestNG.FlipkartSearchProduct@23faf8f2]" name="selectProduct" duration-ms="3086" started-at="2020-11-27T15:20:58 PST" finished-at="2020-11-27T15:21:01 PST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectProduct -->
-        <test-method status="PASS" signature="addProduct()[pri:4, instance:com.TestNG.FlipkartSearchProduct@23faf8f2]" name="addProduct" duration-ms="3159" started-at="2020-11-27T15:21:01 PST" finished-at="2020-11-27T15:21:05 PST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addProduct -->
-        <test-method status="PASS" signature="assertProduct()[pri:5, instance:com.TestNG.FlipkartSearchProduct@23faf8f2]" name="assertProduct" duration-ms="51" started-at="2020-11-27T15:21:05 PST" finished-at="2020-11-27T15:21:05 PST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- assertProduct -->
-        <test-method status="PASS" signature="assertPrice()[pri:6, instance:com.TestNG.FlipkartSearchProduct@23faf8f2]" name="assertPrice" duration-ms="3083" started-at="2020-11-27T15:21:05 PST" finished-at="2020-11-27T15:21:08 PST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- assertPrice -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.TestNG.FlipkartSearchProduct@23faf8f2]" name="tearDown" is-config="true" duration-ms="815" started-at="2020-11-27T15:21:08 PST" finished-at="2020-11-27T15:21:09 PST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.TestNG.FlipkartSearchProduct -->
+        </test-method> <!-- upload -->
+      </class> <!-- com.TestNG.FileUpload -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
