@@ -1,0 +1,69 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-09T06:08:30.887Z",
+        "line": 2,
+        "name": "To verify the login functionality of facebook",
+        "description": "",
+        "id": "to-check-the-facebook-application;to-verify-the-login-functionality-of-facebook",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "To open the application and navigate to url",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "Enter username and password",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "click the submit button",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "take screenshot",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "close the browser",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "To check the facebook application",
+    "description": "",
+    "id": "to-check-the-facebook-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/login.feature",
+    "tags": []
+  }
+]

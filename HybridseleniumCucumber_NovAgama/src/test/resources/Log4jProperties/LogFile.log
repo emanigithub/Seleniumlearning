@@ -1,0 +1,5 @@
+2020-12-07 10:35:55,005 - com.baseClasses.Library -INFO - *******Starting with Browser Set Up*********
+2020-12-07 10:36:08,511 - com.baseClasses.Library -INFO - Launched the cucumber Application
+2020-12-07 10:36:08,512 - com.baseClasses.Library -INFO - ********Browser has been launched******
+2020-12-07 10:36:09,033 - com.baseClasses.Library -INFO - **Login Successful****
+2020-12-07 10:36:10,157 - com.baseClasses.Library -INFO - **Took Screenshot****
