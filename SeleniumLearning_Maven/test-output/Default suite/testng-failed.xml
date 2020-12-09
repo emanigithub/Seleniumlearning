@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.TestNG.DeppendsOnMethods">
+      <class name="Homework11272020.MakeMyTrip">
         <methods>
-          <include name="tc002"/>
-          <include name="tc001"/>
+          <include name="openApp"/>
+          <include name="bookAndContinue"/>
+          <include name="assertCity"/>
         </methods>
-      </class> <!-- com.TestNG.DeppendsOnMethods -->
+      </class> <!-- Homework11272020.MakeMyTrip -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

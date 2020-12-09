@@ -21,15 +21,10 @@ public class ParameterizeWithDataProvider {
 	driver.findElement(By.id("email")).sendKeys(username);
 	driver.findElement(By.id("pass")).sendKeys(password);
 	Thread.sleep(1000);
-	driver.findElement(By.xpath("//*[@id='loginbutton']")).click();
+	//driver.findElement(By.xpath("//*[@id='loginbutton']")).click();
 	
 	}
 	
-	/*@AfterMethod
-	public void tearDown() {
-	driver.quit();
-	}*/
-
 	@DataProvider(name="facebooklogin")
 	public Object[][] passData() {
 

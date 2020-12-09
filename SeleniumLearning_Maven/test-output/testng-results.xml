@@ -1,31 +1,145 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+<testng-results skipped="0" failed="2" ignored="0" total="6" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="88" started-at="2020-11-30T22:27:58 PST" finished-at="2020-11-30T22:27:58 PST">
+  <suite name="Default suite" duration-ms="69334" started-at="2020-12-03T16:35:06 PST" finished-at="2020-12-03T16:36:16 PST">
     <groups>
-      <group name="Smoke Testing">
-        <method signature="DependsOnGroups.tc001()[pri:0, instance:com.TestNG.DependsOnGroups@1f554b06]" name="tc001" class="com.TestNG.DependsOnGroups"/>
-        <method signature="DependsOnGroups.tc002()[pri:0, instance:com.TestNG.DependsOnGroups@1f554b06]" name="tc002" class="com.TestNG.DependsOnGroups"/>
-      </group> <!-- Smoke Testing -->
-      <group name="Sanity Tesing">
-        <method signature="DependsOnGroups.tc002()[pri:0, instance:com.TestNG.DependsOnGroups@1f554b06]" name="tc002" class="com.TestNG.DependsOnGroups"/>
-      </group> <!-- Sanity Tesing -->
-      <group name="Regression Tesing">
-        <method signature="DependsOnGroups.tc001()[pri:0, instance:com.TestNG.DependsOnGroups@1f554b06]" name="tc001" class="com.TestNG.DependsOnGroups"/>
-      </group> <!-- Regression Tesing -->
     </groups>
-    <test name="Test" duration-ms="88" started-at="2020-11-30T22:27:58 PST" finished-at="2020-11-30T22:27:58 PST">
-      <class name="com.TestNG.DependsOnGroups">
-        <test-method status="PASS" signature="tc001()[pri:0, instance:com.TestNG.DependsOnGroups@1f554b06]" name="tc001" duration-ms="13" started-at="2020-11-30T22:27:58 PST" finished-at="2020-11-30T22:27:58 PST">
+    <test name="Default test" duration-ms="69334" started-at="2020-12-03T16:35:06 PST" finished-at="2020-12-03T16:36:16 PST">
+      <class name="Homework11272020.MakeMyTrip">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:Homework11272020.MakeMyTrip@d44fc21]" name="openApp" is-config="true" duration-ms="11989" started-at="2020-12-03T16:35:06 PST" finished-at="2020-12-03T16:35:18 PST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc001 -->
-        <test-method status="PASS" signature="tc002()[pri:0, instance:com.TestNG.DependsOnGroups@1f554b06]" name="tc002" duration-ms="2" started-at="2020-11-30T22:27:58 PST" finished-at="2020-11-30T22:27:58 PST">
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="flightSerach()[pri:1, instance:Homework11272020.MakeMyTrip@d44fc21]" name="flightSerach" duration-ms="13171" started-at="2020-12-03T16:35:18 PST" finished-at="2020-12-03T16:35:32 PST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc002 -->
-      </class> <!-- com.TestNG.DependsOnGroups -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- flightSerach -->
+        <test-method status="PASS" signature="printAscendingPrice()[pri:2, instance:Homework11272020.MakeMyTrip@d44fc21]" name="printAscendingPrice" duration-ms="10188" started-at="2020-12-03T16:35:32 PST" finished-at="2020-12-03T16:35:42 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printAscendingPrice -->
+        <test-method status="PASS" signature="lowestScreenshot()[pri:3, instance:Homework11272020.MakeMyTrip@d44fc21]" name="lowestScreenshot" duration-ms="1833" started-at="2020-12-03T16:35:42 PST" finished-at="2020-12-03T16:35:44 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lowestScreenshot -->
+        <test-method status="FAIL" signature="bookAndContinue()[pri:4, instance:Homework11272020.MakeMyTrip@d44fc21]" name="bookAndContinue" duration-ms="1014" started-at="2020-12-03T16:35:44 PST" finished-at="2020-12-03T16:35:45 PST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at Homework11272020.MakeMyTrip.bookAndContinue(MakeMyTrip.java:103)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookAndContinue -->
+        <test-method status="FAIL" signature="assertCity()[pri:5, instance:Homework11272020.MakeMyTrip@d44fc21]" name="assertCity" duration-ms="30079" started-at="2020-12-03T16:35:45 PST" finished-at="2020-12-03T16:36:15 PST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".LatoBold"}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SRINI-LAPTOP', ip: '192.168.1.82', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\emani\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53543}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4f6bc1bd75981fbc95b6ce6f2b7498e4
+*** Element info: {Using=class name, value=LatoBold}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".LatoBold"}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SRINI-LAPTOP', ip: '192.168.1.82', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\emani\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53543}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4f6bc1bd75981fbc95b6ce6f2b7498e4
+*** Element info: {Using=class name, value=LatoBold}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:185)
+at org.openqa.selenium.remote.RemoteWebElement.findElementByClassName(RemoteWebElement.java:245)
+at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+at org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:181)
+at Homework11272020.MakeMyTrip.assertCity(MakeMyTrip.java:118)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertCity -->
+        <test-method status="PASS" signature="teardown()[pri:6, instance:Homework11272020.MakeMyTrip@d44fc21]" name="teardown" duration-ms="957" started-at="2020-12-03T16:36:15 PST" finished-at="2020-12-03T16:36:16 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Homework11272020.MakeMyTrip -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
